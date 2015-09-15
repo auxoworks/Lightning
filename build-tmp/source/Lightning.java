@@ -18,7 +18,7 @@ public class Lightning extends PApplet {
 
 public void setup()
 {
-	
+	background (0,0,0);
 	size(300,300);
 	strokeWeight(1);
 	noLoop();
@@ -27,7 +27,7 @@ public void setup()
 
 public void draw()
 {
-background (0,0,0);
+
 noStroke();
 fill(200,200,200);
 ellipse(30,150,15,15);
@@ -65,7 +65,6 @@ int endY=150;
 
 public void mouseClicked()
 {
-background(255,255,255,20);
 }
 
   static public void main(String[] passedArgs) {
